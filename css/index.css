@@ -59,10 +59,13 @@ header {
 }
 
 .contents span {
-	position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 190px 10px;
+	align-items: center;
 	font-size: 43px;
-	right: 350px;
-	top: 11rem;
 	font-family: "Inter", sans-serif;
 	color: #fff;
 }
@@ -93,12 +96,13 @@ header {
 }
 
 .strt {
-	position: absolute;
-	right: 45rem;
-	top: 30rem;
+	display: flex;
+	align-items: center;
+	margin: auto;
 	padding: 0.5rem;
 	background: #fff;
 	color: #000;
+	border: none;
 	border-radius: 0.5rem;
 }
 
