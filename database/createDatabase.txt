@@ -1,0 +1,22 @@
+CREATE TABLE `Table_with_movies_and_links`
+(
+ `movie_id`                      int NOT NULL,
+ `name_of_the_movie`             varchar(60) NOT NULL ,
+ `brief_description_of_the_film` varchar(500) NULL ,
+ `movie_time`                    varchar(45) NOT NULL ,
+ `link_film`                     varchar(150) NOT NULL ,
+ `film_year`                     varchar(45) NOT NULL ,
+ `film_reating`                  varchar(45) NOT NULL ,
+
+PRIMARY KEY (`movie_id`)
+);
+------------------------------------------------------------
+CREATE TABLE `Registration`
+(
+ `id`           int NOT NULL AUTO_INCREMENT ,
+ `email`        varchar(45) NOT NULL ,
+ `userName`     varchar(45) NOT NULL ,
+ `userPassword` varchar(45) NOT NULL ,
+
+PRIMARY KEY (`id`)
+);

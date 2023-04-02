@@ -1,0 +1,1 @@
+SELECT * FROM table_with_movies_and_links;

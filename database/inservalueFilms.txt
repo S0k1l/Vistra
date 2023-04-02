@@ -1,0 +1,20 @@
+insert into table_with_movies_and_links 
+(movie_id, name_of_the_movie, brief_description_of_the_film, 
+movie_time,link_film,film_year,film_reating)
+ value (1,'Heracle','The most popular film about Man',"1h 30m", 'asdsadsdadsa', '2011', '8.7');
+insert into table_with_movies_and_links 
+(movie_id, name_of_the_movie, brief_description_of_the_film, 
+movie_time,link_film,film_year,film_reating)
+ value (2,'Ant-Man','Ant-Man is a 2015 American superhero film based on the Marvel Comics characters of the same name: Scott Lang and Hank Pym. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 12th film in the Marvel Cinematic Universe (MCU). The film was directed by Peyton Reed from a screenplay by the writing teams of Edgar Wright and Joe Cornish, and Adam McKay',
+ "1h 50m", 'efwefwefwe', '2017', '9.1');
+insert into table_with_movies_and_links 
+(movie_id, name_of_the_movie, brief_description_of_the_film, 
+movie_time,link_film,film_year,film_reating)
+ value (3,'Rampage','From Wikipedia, the free encyclopedia Rampage is a series of video games released by Midway (1986–2009) and Warner Bros. Interactive Entertainment (2009–present) for the arcade and various consoles. The basic premise of the games is that, due to experiment-related accidents, the player controls a human transformed into a giant monster.',
+ "1h 47m", 'regerge', '2018', '6.5');
+
+ -------------------------------------------
+insert into registration (id, email, userName, userPassword) value (1, 'asdasd@gmail.com','Sten','qwrfsf');
+insert into registration (id, email, userName, userPassword) value (null, 'fassa@gmail.com','asda','324234');
+insert into registration (id, email, userName, userPassword) value (null, 'syghgr@gmail.com','Ten','144422');
+insert into registration (id, email, userName, userPassword) value (null, 'h35334@gmail.com','344','112233');
