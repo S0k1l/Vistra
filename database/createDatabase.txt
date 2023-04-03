@@ -20,3 +20,8 @@ CREATE TABLE `Registration`
 
 PRIMARY KEY (`id`)
 );
+
+--------MySQL------------
+Password. - - uhv34@aftddFFa1 NEW 
+
+Password - User - qeruv@6439FFsa

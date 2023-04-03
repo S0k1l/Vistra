@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Database",
+            "database": "vistra_database",
+            "username": "root",
+            "password": "uhv34@aftddFFa1"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "connect",
+            "database": "vistra_database",
+            "username": "root",
+            "password": "uhv34@aftddFFa1"
+        }
+    ]
+}
